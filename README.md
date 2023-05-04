@@ -18,6 +18,7 @@
 * 變更專案名稱
 * vscode設定
 * 移除不要的cmd內資料夾
+* 移除Business範例相關之資料夾
 * 執行go mod tidy
 * 砍掉readme.me此檔
 # 專案分佈
@@ -25,4 +26,5 @@
 * pkg下app外層是上層通用的,含通用model (不含)deliverymodel
 * pkg下app內層ctxcache,deliverymodel,errordef是內層通用
 * pkg下app內層server內含進入點
-* pkg下app內層含delivery, usecase , repo(db orm, http, grpc ...)
+* pkg下app內層含delivery, usecase , repo(db orm, http,grpc ...)
+* Business範例app/user,app/device,app/edge

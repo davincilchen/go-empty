@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"goinit/pkg/config"
-	"goinit/pkg/db"
-	"goinit/pkg/models"
+	"go-empty/pkg/config"
+	"go-empty/pkg/db"
+	"go-empty/pkg/models"
 	"log"
 	"os"
 	"time"

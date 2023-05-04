@@ -10,12 +10,12 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"goinit/pkg/app/ctxcache"
-	dlvModel "goinit/pkg/app/deliverymodel"
-	devUCase "goinit/pkg/app/device/usecase"
-	edgeUCase "goinit/pkg/app/edge/usecase"
-	errDef "goinit/pkg/app/errordef"
-	dlv "goinit/pkg/delivery"
+	"go-empty/pkg/app/ctxcache"
+	dlvModel "go-empty/pkg/app/deliverymodel"
+	devUCase "go-empty/pkg/app/device/usecase"
+	edgeUCase "go-empty/pkg/app/edge/usecase"
+	errDef "go-empty/pkg/app/errordef"
+	dlv "go-empty/pkg/delivery"
 )
 
 type NewReserveResp struct {

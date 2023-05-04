@@ -1,8 +1,8 @@
 package main
 
 import (
-	"goinit/pkg/app/server"
-	"goinit/pkg/config"
+	"go-empty/pkg/app/server"
+	"go-empty/pkg/config"
 	"log"
 )
 

@@ -6,10 +6,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	appDlv "goinit/pkg/app/app/delivery"
-	devDlv "goinit/pkg/app/device/delivery"
-	edgeDlv "goinit/pkg/app/edge/delivery"
-	loginDlv "goinit/pkg/app/login/delivery"
+	devDlv "go-empty/pkg/app/device/delivery"
+	edgeDlv "go-empty/pkg/app/edge/delivery"
+	loginDlv "go-empty/pkg/app/login/delivery"
 )
 
 func Router() *gin.Engine {
@@ -43,10 +42,6 @@ func Router() *gin.Engine {
 	devSession.POST("/start_app", edgeDlv.StartApp)
 	devSession.POST("/stop_app", edgeDlv.StopApp)
 	devSession.POST("/status", edgeDlv.EdgeStatus)
-
-	// .. //
-	apps := router.Group("/apps")
-	apps.GET("/", appDlv.AppList)
 
 	// .. //
 	edges := router.Group("/edges")

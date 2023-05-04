@@ -2,8 +2,8 @@
 package mysql
 
 import (
-	"goinit/pkg/db"
-	"goinit/pkg/models"
+	"go-empty/pkg/db"
+	"go-empty/pkg/models"
 
 	"gorm.io/gorm"
 )

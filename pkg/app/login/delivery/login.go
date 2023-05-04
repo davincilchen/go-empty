@@ -7,11 +7,11 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"goinit/pkg/app/ctxcache"
+	"go-empty/pkg/app/ctxcache"
 
-	devUCase "goinit/pkg/app/device/usecase"
-	userUCase "goinit/pkg/app/user/usecase"
-	dlv "goinit/pkg/delivery"
+	devUCase "go-empty/pkg/app/device/usecase"
+	userUCase "go-empty/pkg/app/user/usecase"
+	dlv "go-empty/pkg/delivery"
 )
 
 type loginSuccess func(ctxcache.Context, userUCase.LoginUser) error

@@ -1,4 +1,4 @@
-module goinit
+module go-empty
 
 go 1.18
 

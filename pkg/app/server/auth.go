@@ -2,12 +2,12 @@ package server
 
 import (
 	"fmt"
-	"goinit/pkg/app/ctxcache"
+	"go-empty/pkg/app/ctxcache"
 
 	"github.com/gin-gonic/gin"
 
-	deviceUCase "goinit/pkg/app/device/usecase"
-	dlv "goinit/pkg/delivery"
+	deviceUCase "go-empty/pkg/app/device/usecase"
+	dlv "go-empty/pkg/delivery"
 )
 
 // ===================== //

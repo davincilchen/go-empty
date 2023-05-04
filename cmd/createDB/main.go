@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"goinit/pkg/config"
-	"goinit/pkg/db"
+	"go-empty/pkg/config"
+	"go-empty/pkg/db"
 	"log"
 	"os"
 	"time"

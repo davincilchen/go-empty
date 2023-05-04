@@ -3,8 +3,8 @@ package server
 import (
 	"encoding/json"
 	"fmt"
-	"goinit/pkg/app/ctxcache"
-	devUCase "goinit/pkg/app/device/usecase"
+	"go-empty/pkg/app/ctxcache"
+	devUCase "go-empty/pkg/app/device/usecase"
 	"time"
 
 	// gcpLogging "cloud.google.com/go/logging"

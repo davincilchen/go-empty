@@ -2,9 +2,9 @@ package usecase
 
 import (
 	"fmt"
-	repo "goinit/pkg/app/user/repo/mysql"
-	"goinit/pkg/models"
-	"goinit/pkg/token"
+	repo "go-empty/pkg/app/user/repo/mysql"
+	"go-empty/pkg/models"
+	"go-empty/pkg/token"
 
 	"golang.org/x/crypto/bcrypt"
 )

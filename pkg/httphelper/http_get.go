@@ -3,7 +3,7 @@ package httphelper
 import (
 	"crypto/tls"
 	"fmt"
-	"goinit/version"
+	"go-empty/version"
 	"net"
 	"net/http"
 	"time"
