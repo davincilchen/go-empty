@@ -28,3 +28,4 @@
 * pkg下app內層server內含進入點
 * pkg下app內層含delivery, usecase , repo(db orm, http,grpc ...)
 * Business範例app/user,app/device,app/edge
+* 查看[https://github.com/davincilchen/goinit]
