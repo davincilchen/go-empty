@@ -17,12 +17,5 @@
 			"maxidleconns": 5,
 			"maxopenconns": 5,
 			"connmaxlifetime": 90
-	},
-	"Hello":{
-		"Show":"I'm server 1"
-	},
-	"GCP":{
-		"ProjectID":"123545",
-		"LogName": "cloud-native"
 	}				
 }

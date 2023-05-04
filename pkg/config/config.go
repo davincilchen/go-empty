@@ -9,22 +9,11 @@ import (
 type Config struct {
 	Server Server    `json:"Server"`
 	DB     db.Config `json:"DB"`
-	GCP    GCP       `json:"GCP"`
-	Hello  Hello     `json:"Hello"`
 }
 
 type Server struct {
 	Port string `json:"Port"`
 	IP   string `json:"IP"`
-}
-
-type GCP struct {
-	ProjectID string `json:"ProjectID"`
-	LogName   string `json:"LogName"`
-}
-
-type Hello struct {
-	Show string `json:"Show"`
 }
 
 func New(path string) (*Config, error) {
